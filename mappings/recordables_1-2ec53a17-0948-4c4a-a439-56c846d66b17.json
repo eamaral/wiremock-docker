@@ -1,0 +1,18 @@
+{
+  "id" : "2ec53a17-0948-4c4a-a439-56c846d66b17",
+  "name" : "recordables_1",
+  "request" : {
+    "url" : "/recordables/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "\n                                               Request was not matched\n                                               =======================\n\n-----------------------------------------------------------------------------------------------------------------------\n| Closest stub                                             | Request                                                  |\n-----------------------------------------------------------------------------------------------------------------------\n                                                           |\nWireMock recorder example                                  |\n                                                           |\nGET                                                        | GET\n/recordables/123                                           | /recordables/1                                      <<<<< URL does not match\n                                                           |\n                                                           |\n-----------------------------------------------------------------------------------------------------------------------\n",
+    "headers" : {
+      "Content-Type" : "text/plain;charset=utf-8"
+    }
+  },
+  "uuid" : "2ec53a17-0948-4c4a-a439-56c846d66b17",
+  "persistent" : true,
+  "insertionIndex" : 6
+}

@@ -1,0 +1,21 @@
+{
+    "request": {
+        "url": "/api/body-patterns",
+        "method": "POST",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": {
+                    "expression": "$",
+                    "equalToJson": "{\"body-patterns\":\"test\"}"
+                }
+            }
+        ]
+    },
+    "response": {
+        "status": 201,
+        "body": "{\"id\":1,\"body-patterns\":\"test\"}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    } 
+}
